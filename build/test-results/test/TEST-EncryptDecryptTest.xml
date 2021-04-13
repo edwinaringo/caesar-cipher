@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="EncryptDecryptTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-04-13T20:44:04" hostname="Aringoprobook" time="0.031">
+<testsuite name="EncryptDecryptTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-13T21:44:42" hostname="Aringoprobook" time="0.022">
   <properties/>
-  <testcase name="encryptDecrypt_savesMessage_String()" classname="EncryptDecryptTest" time="0.029"/>
-  <testcase name="encryptDecrypt_savesShiftValue_Integer()" classname="EncryptDecryptTest" time="0.001"/>
+  <testcase name="encryptDecrypt_savesMessage_String()" classname="EncryptDecryptTest" time="0.019"/>
+  <testcase name="encryptDecrypt_decipherText_String()" classname="EncryptDecryptTest" time="0.001"/>
+  <testcase name="encryptDecrypt_savesShiftValue_Integer()" classname="EncryptDecryptTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

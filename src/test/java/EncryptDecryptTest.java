@@ -16,5 +16,12 @@ public class EncryptDecryptTest {
         assertEquals(3, testVal.getShiftBy());
     }
 
+    @Test
+    public void encryptDecrypt_decipherText_String() {
+        EncryptDecrypt testVal = new EncryptDecrypt("hgzlq",3);
+        assertEquals("edwin",testVal.decryption());
+    }
+
+
 
 }
