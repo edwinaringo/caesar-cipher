@@ -18,9 +18,13 @@ public class App {
                 System.out.println("Encrypted Text: " + message.encryption());
                 break;
             }else if (choice.equals("2")) {
-
-
-
+                System.out.print("Enter text to be decrypted: ");
+                String encryptedText = input.nextLine().toLowerCase();
+                System.out.print("Enter the shift value: ");
+                int reverseShiftValue = input.nextInt();
+                EncryptDecrypt encryptText = new EncryptDecrypt(encryptedText, reverseShiftValue);
+                System.out.print("Decrypted Message: " + encryptText.decryption());
+                break;
             }else{
                 System.out.println("Invalid choice. Try again");
             }
