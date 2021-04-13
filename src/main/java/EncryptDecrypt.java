@@ -8,12 +8,12 @@ public class EncryptDecrypt {
     }
 
     public String getTextMessage() {
-        return null;
+        return this.textMessage;
 
     }
 
-    public Object getShiftBy() {
-        return null;
+    public int getShiftBy() {
+        return this.shiftBy;
     }
 
 
