@@ -23,6 +23,13 @@ public class EncryptDecryptTest {
         assertEquals("edwin", testVal.decryption());
     }
 
+    @Test
+    public void encryptDecrypt_objectInstantiates() {
+        EncryptDecrypt testVal = new EncryptDecrypt("hello", 3);
+        assertEquals(true, testVal instanceof EncryptDecrypt);
+
+    }
+
 
 
 }
