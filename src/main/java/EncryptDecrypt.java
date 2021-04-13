@@ -32,6 +32,22 @@ public class EncryptDecrypt {
         return sb.toString();
     }
 
+    public String decryption() {
+        int reverseShift = 26 - (shiftBy % 26);
+        StringBuilder sb = new StringBuilder();
+        for (char character : textMessage.toCharArray()) {
+            if (character != ' ') {
+                int asciiPosition = character - 'a';
+                int newPosition = (asciiPosition + reverseShift) % 26;
+                char newCharacter = (char) ('a' + newPosition);
+                sb.append(newCharacter);
+            } else {
+                sb.append(character);
+            }
+        }
+        return sb.toString();
+    }
+
 
 
 
