@@ -1,6 +1,7 @@
 
 
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class EncryptDecryptTest {
@@ -19,7 +20,7 @@ public class EncryptDecryptTest {
     @Test
     public void encryptDecrypt_decipherText_String() {
         EncryptDecrypt testVal = new EncryptDecrypt("hgzlq",3);
-        assertEquals("edwin",testVal.decryption());
+        assertEquals("edwin", testVal.decryption());
     }
 
 

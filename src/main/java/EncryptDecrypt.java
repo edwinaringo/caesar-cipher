@@ -1,6 +1,6 @@
 public class EncryptDecrypt {
-    private String textMessage;
-    private int shiftBy;
+    private final String textMessage;
+    private final int shiftBy;
 
     public EncryptDecrypt(String textMessage, int shiftBy) {
         this.textMessage = textMessage;
