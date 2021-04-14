@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class App {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         System.out.println("WELCOME TO THE CAESAR CIPHER");
         while (true) {
             System.out.println("CHOOSE 1 for Encryption or 2 for Decryption");
